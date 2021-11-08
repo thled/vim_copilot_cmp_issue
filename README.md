@@ -1,5 +1,8 @@
 # PoC: nvim-cmp incompatible with Copilot.vim
 
+**UPDATE:**
+This is the fixed version where the Copilot.vim configurations are loaded at start-up and not in the `after` module.
+
 Minimal Neovim setup to reproduce the <kbd>Tab</kbd> issue while using the plugins [nvim-cmp][cmp] and [Copilot.vim][copilot].
 
 Linked issue: <https://github.com/hrsh7th/nvim-cmp/issues/459>
